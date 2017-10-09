@@ -15,7 +15,7 @@ public class NumberToWord {
         return EnglishNumberToWord.getNumberToWord(number);
       case "hi":
         return HindiNumberToWord.getNumberToWord(number);
-      case "guj":
+      case "gu":
         return GujaratiNumberToWord.getNumberToWord(number);
       default:
         return EnglishNumberToWord.getNumberToWord(number);
