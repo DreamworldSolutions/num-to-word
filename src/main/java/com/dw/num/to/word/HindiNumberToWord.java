@@ -1,5 +1,15 @@
 package com.dw.num.to.word;
 
+import com.fasterxml.jackson.core.JsonParser.Feature;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import org.apache.commons.lang3.StringUtils;
+
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
+
 public class HindiNumberToWord {
 
   private static final String[] TEXT_ONE_TO_NINETYNINE = {"शून्य", "एक", "दो", "तीन", "चार", "पांच",
@@ -20,6 +30,26 @@ public class HindiNumberToWord {
   public static final String TEXT_PAISE = "पैसे";
   public static final String TEXT_ONLY = "केवल";
   public static final String SPACE = " ";
+  private static final String DECIMAL_VAL_TEXT = "decimalValText";
+  private static final String WHOLE_VAL_TEXT = "wholeValText";
+
+  private static final String FILE_PATH = "currency-text-hi.json";
+  private static Map<String, Map<String, String>> currencyText = new HashMap<>();
+
+  static {
+    InputStream in = HindiNumberToWord.class.getClassLoader().getResourceAsStream(FILE_PATH);
+
+    ObjectMapper objectMapper = new ObjectMapper();
+    objectMapper.configure(Feature.AUTO_CLOSE_SOURCE, true);
+
+    try {
+      currencyText =
+          objectMapper.readValue(in, new TypeReference<HashMap<String, Map<String, String>>>() {});
+      System.out.println("HindiNumberToWord :: Currency text loaded.");
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
 
   /**
    * Give word representation of given friction number in given language.
@@ -27,21 +57,46 @@ public class HindiNumberToWord {
    * @param number need to represent in word
    */
   public static String getNumberToWord(String number) {
+    return getNumberToWord(number, TEXT_RUPEES, TEXT_PAISE);
+  }
+
+  /**
+   * Give word representation of given friction number in given currencyCode.
+   * 
+   * @param number need to represent in word
+   */
+  public static String getNumberToWord(String number, String currencyCode) {
+    if (StringUtils.isBlank(currencyCode)) {
+      return getNumberToWord(number);
+    }
+    Map<String, String> texts = currencyText.get(currencyCode);
+    if (texts == null || texts.size() == 0) {
+      return getNumberToWord(number);
+    }
+
+    return getNumberToWord(number, texts.get(WHOLE_VAL_TEXT), texts.get(DECIMAL_VAL_TEXT));
+  }
+
+  private static String getNumberToWord(String number, String rupeesText, String paiseText) {
     String[] parts = number.split("\\.");
     long primitive = Long.parseLong(parts[0]);
     StringBuilder sb = new StringBuilder();
     sb.append(getWordRepresentationForPrimitive(primitive));
-    sb.append(" ");
-    sb.append(TEXT_RUPEES);
+    sb.append(SPACE);
+    sb.append(rupeesText);
     if (parts.length == 2) {
       long fraction = Long.parseLong(parts[1]);
       if (fraction > 0) {
         if (sb.length() > 0) {
           sb.append(SPACE);
         }
+
+        // Write fraction part
         sb.append(getWordRepresentationForPrimitive(fraction));
-        sb.append(SPACE);
-        sb.append(TEXT_PAISE);
+        if (StringUtils.isNotBlank(paiseText)) {
+          sb.append(SPACE);
+          sb.append(paiseText);
+        }
       }
     }
     sb.append(SPACE);

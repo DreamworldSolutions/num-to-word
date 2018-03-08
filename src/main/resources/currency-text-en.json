@@ -1,0 +1,626 @@
+{
+  "AED": {
+    "wholeValText": "Dirham",
+    "decimalValText": "Fils"
+  },
+  "AFN": {
+    "wholeValText": "Afghani",
+    "decimalValText": "Afghani"
+  },
+  "ALL": {
+    "wholeValText": "Lekë",
+    "decimalValText": "Lekë"
+  },
+  "AMD": {
+    "wholeValText": "dram",
+    "decimalValText": "luma"
+  },
+  "ANG": {
+    "wholeValText": "guilder",
+    "decimalValText": "cent"
+  },
+  "AOA": {
+    "wholeValText": "kwanza",
+    "decimalValText": "Céntimo"
+  },
+  "ARS": {
+    "wholeValText": "peso",
+    "decimalValText": "Centavos"
+  },
+  "AUD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "AWG": {
+    "wholeValText": "florin",
+    "decimalValText": "cent"
+  },
+  "AZN": {
+    "wholeValText": "manat",
+    "decimalValText": "qəpik"
+  },
+  "BAM": {
+    "wholeValText": "mark",
+    "decimalValText": "Fening/Pfenig"
+  },
+  "BBD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "BDT": {
+    "wholeValText": "poisha",
+    "decimalValText": "poisha"
+  },
+  "BGN": {
+    "wholeValText": "leva",
+    "decimalValText": "stotinka"
+  },
+  "BHD": {
+    "wholeValText": "dinar",
+    "decimalValText": "fils"
+  },
+  "BIF": {
+    "wholeValText": "franc",
+    "decimalValText": "franc"
+  },
+  "BMD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "BND": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "BOB": {
+    "wholeValText": "boliviano",
+    "decimalValText": ""
+  },
+  "BRL": {
+    "wholeValText": "real",
+    "decimalValText": "centavo"
+  },
+  "BSD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "BTN": {
+    "wholeValText": "",
+    "decimalValText": ""
+  },
+  "BWP": {
+    "wholeValText": "pula",
+    "decimalValText": "thebe"
+  },
+  "BYR": {
+    "wholeValText": "ruble",
+    "decimalValText": "kopek"
+  },
+  "BZD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "CAD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "CDF": {
+    "wholeValText": "franc",
+    "decimalValText": "centime"
+  },
+  "CHF": {
+    "wholeValText": "franc",
+    "decimalValText": "centime"
+  },
+  "CLP": {
+    "wholeValText": "peso",
+    "decimalValText": "peso"
+  },
+  "CNY": {
+    "wholeValText": "",
+    "decimalValText": ""
+  },
+  "COP": {
+    "wholeValText": "peso",
+    "decimalValText": "peso"
+  },
+  "CRC": {
+    "wholeValText": "colon",
+    "decimalValText": "colon"
+  },
+  "CUC": {
+    "wholeValText": "peso",
+    "decimalValText": "peso"
+  },
+  "CVE": {
+    "wholeValText": "escudo",
+    "decimalValText": "escudo"
+  },
+  "CZK": {
+    "wholeValText": "",
+    "decimalValText": ""
+  },
+  "DJF": {
+    "wholeValText": "franc",
+    "decimalValText": "franc"
+  },
+  "DKK": {
+    "wholeValText": "kroner",
+    "decimalValText": "kroner"
+  },
+  "DOP": {
+    "wholeValText": "peso",
+    "decimalValText": "Centavos"
+  },
+  "DZD": {
+    "wholeValText": "dinar",
+    "decimalValText": "dinar"
+  },
+  "EEK": {
+    "wholeValText": "kroon",
+    "decimalValText": "sent"
+  },
+  "EGP": {
+    "wholeValText": "pound",
+    "decimalValText": "piastre"
+  },
+  "ERN": {
+    "wholeValText": "nakfa",
+    "decimalValText": "cent"
+  },
+  "ETB": {
+    "wholeValText": "birr",
+    "decimalValText": "santim"
+  },
+  "EUR": {
+    "wholeValText": "euro",
+    "decimalValText": "cent"
+  },
+  "FJD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "FKP": {
+    "wholeValText": "pound",
+    "decimalValText": "penny"
+  },
+  "GBP": {
+    "wholeValText": "pound",
+    "decimalValText": "penny"
+  },
+  "GEL": {
+    "wholeValText": "lari",
+    "decimalValText": "tetri"
+  },
+  "GHS": {
+    "wholeValText": "cedi",
+    "decimalValText": "pesewa"
+  },
+  "GIP": {
+    "wholeValText": "pound",
+    "decimalValText": "penny"
+  },
+  "GMD": {
+    "wholeValText": "dalasi",
+    "decimalValText": "butut"
+  },
+  "GNF": {
+    "wholeValText": "franc",
+    "decimalValText": "franc"
+  },
+  "GQE": {
+    "wholeValText": "franc",
+    "decimalValText": "franc"
+  },
+  "GTQ": {
+    "wholeValText": "quetzal",
+    "decimalValText": "centavo"
+  },
+  "GYD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "HKD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "HNL": {
+    "wholeValText": "lempira",
+    "decimalValText": "centavo"
+  },
+  "HRK": {
+    "wholeValText": "kuna",
+    "decimalValText": "lipa"
+  },
+  "HTG": {
+    "wholeValText": "gourde",
+    "decimalValText": "centime"
+  },
+  "HUF": {
+    "wholeValText": "",
+    "decimalValText": ""
+  },
+  "IDR": {
+    "wholeValText": "rupiah",
+    "decimalValText": "cent"
+  },
+  "ILS": {
+    "wholeValText": "shekels",
+    "decimalValText": "agora"
+  },
+  "INR": {
+    "wholeValText": "rupees",
+    "decimalValText": "paisa"
+  },
+  "IQD": {
+    "wholeValText": "dinars",
+    "decimalValText": "fils"
+  },
+  "IRR": {
+    "wholeValText": "rials",
+    "decimalValText": "rials"
+  },
+  "ISK": {
+    "wholeValText": "kronur",
+    "decimalValText": "eyrir"
+  },
+  "JMD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "JOD": {
+    "wholeValText": "dirham",
+    "decimalValText": "piaste"
+  },
+  "JPY": {
+    "wholeValText": "yen",
+    "decimalValText": "sen"
+  },
+  "KES": {
+    "wholeValText": "shillings",
+    "decimalValText": "cent"
+  },
+  "KGS": {
+    "wholeValText": "shillings",
+    "decimalValText": "tyiyn"
+  },
+  "KHR": {
+    "wholeValText": "riels",
+    "decimalValText": "sen"
+  },
+  "KMF": {
+    "wholeValText": "francs",
+    "decimalValText": "centime"
+  },
+  "KPW": {
+    "wholeValText": "korean won",
+    "decimalValText": "xhon"
+  },
+  "KRW": {
+    "wholeValText": "korean won",
+    "decimalValText": ""
+  },
+  "KWD": {
+    "wholeValText": "dinars",
+    "decimalValText": "fils"
+  },
+  "KYD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "KZT": {
+    "wholeValText": "tenge",
+    "decimalValText": "tiyn"
+  },
+  "LAK": {
+    "wholeValText": "kip",
+    "decimalValText": "att"
+  },
+  "LBP": {
+    "wholeValText": "pounds",
+    "decimalValText": "queresh"
+  },
+  "LKR": {
+    "wholeValText": "rupees",
+    "decimalValText": "cent"
+  },
+  "LRD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "LSL": {
+    "wholeValText": "maloti",
+    "decimalValText": "lisente"
+  },
+  "LTL": {
+    "wholeValText": "litų",
+    "decimalValText": "centas"
+  },
+  "LVL": {
+    "wholeValText": "latu",
+    "decimalValText": "santīms"
+  },
+  "LYD": {
+    "wholeValText": "santīms",
+    "decimalValText": "dirham"
+  },
+  "MAD": {
+    "wholeValText": "dirham",
+    "decimalValText": "santim"
+  },
+  "MDL": {
+    "wholeValText": "lei",
+    "decimalValText": "bani"
+  },
+  "MGA": {
+    "wholeValText": "ariary",
+    "decimalValText": ""
+  },
+  "MKD": {
+    "wholeValText": "denari",
+    "decimalValText": "deni"
+  },
+  "MMK": {
+    "wholeValText": "kyat",
+    "decimalValText": "pya"
+  },
+  "MNT": {
+    "wholeValText": "togrog",
+    "decimalValText": "mongo"
+  },
+  "MOP": {
+    "wholeValText": "pataca",
+    "decimalValText": ""
+  },
+  "MRO": {
+    "wholeValText": "ouguiya",
+    "decimalValText": "khoums"
+  },
+  "MUR": {
+    "wholeValText": "rupees",
+    "decimalValText": "cent"
+  },
+  "MVR": {
+    "wholeValText": "rufiyaa",
+    "decimalValText": "laari"
+  },
+  "MWK": {
+    "wholeValText": "kwacha",
+    "decimalValText": "tambala"
+  },
+  "MXN": {
+    "wholeValText": "peso",
+    "decimalValText": "centavo"
+  },
+  "MYR": {
+    "wholeValText": "ringgit",
+    "decimalValText": "sen"
+  },
+  "MZM": {
+    "wholeValText": "meticais",
+    "decimalValText": "centova"
+  },
+  "NAD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "NGN": {
+    "wholeValText": "naira",
+    "decimalValText": "kobo"
+  },
+  "NIO": {
+    "wholeValText": "cordobas",
+    "decimalValText": "centavo"
+  },
+  "NOK": {
+    "wholeValText": "kroner",
+    "decimalValText": "ore"
+  },
+  "NPR": {
+    "wholeValText": "rupees",
+    "decimalValText": "paisa"
+  },
+  "NZD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "OMR": {
+    "wholeValText": "rial",
+    "decimalValText": "baisa"
+  },
+  "PAB": {
+    "wholeValText": "balboas",
+    "decimalValText": "centesimos"
+  },
+  "PEN": {
+    "wholeValText": "soles",
+    "decimalValText": "centimos"
+  },
+  "PGK": {
+    "wholeValText": "kina",
+    "decimalValText": "toea"
+  },
+  "PHP": {
+    "wholeValText": "peso",
+    "decimalValText": "centavo"
+  },
+  "PKR": {
+    "wholeValText": "rupees",
+    "decimalValText": "paisa"
+  },
+  "PLN": {
+    "wholeValText": "zloty",
+    "decimalValText": "grosz"
+  },
+  "PYG": {
+    "wholeValText": "guaranies",
+    "decimalValText": "centimo"
+  },
+  "QAR": {
+    "wholeValText": "riyals",
+    "decimalValText": "dirham"
+  },
+  "RON": {
+    "wholeValText": "lei",
+    "decimalValText": "bani"
+  },
+  "RSD": {
+    "wholeValText": "dinars",
+    "decimalValText": "paras"
+  },
+  "RUB": {
+    "wholeValText": "ruble",
+    "decimalValText": "kopeyka"
+  },
+  "SAR": {
+    "wholeValText": "riyals",
+    "decimalValText": "halalah"
+  },
+  "SBD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "SCR": {
+    "wholeValText": "rupees",
+    "decimalValText": "cent"
+  },
+  "SDG": {
+    "wholeValText": "pounds",
+    "decimalValText": "piasters"
+  },
+  "SEK": {
+    "wholeValText": "kronor",
+    "decimalValText": "öre"
+  },
+  "SGD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "SHP": {
+    "wholeValText": "pound",
+    "decimalValText": "pence"
+  },
+  "SLL": {
+    "wholeValText": "leones",
+    "decimalValText": "cent"
+  },
+  "SOS": {
+    "wholeValText": "shillings",
+    "decimalValText": "senti"
+  },
+  "SRD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "SYP": {
+    "wholeValText": "pound",
+    "decimalValText": "piastre"
+  },
+  "SZL": {
+    "wholeValText": "emalangeni",
+    "decimalValText": "cent"
+  },
+  "THB": {
+    "wholeValText": "baht",
+    "decimalValText": "satang"
+  },
+  "TJS": {
+    "wholeValText": "somoni",
+    "decimalValText": "dihram"
+  },
+  "TMT": {
+    "wholeValText": "manat",
+    "decimalValText": "tenge"
+  },
+  "TND": {
+    "wholeValText": "dinars",
+    "decimalValText": "millimes"
+  },
+  "TRY": {
+    "wholeValText": "new lira",
+    "decimalValText": "new kuruş"
+  },
+  "TTD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "TWD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "TZS": {
+    "wholeValText": "shillingi",
+    "decimalValText": "senti"
+  },
+  "UAH": {
+    "wholeValText": "hryvnia",
+    "decimalValText": "kopiyka"
+  },
+  "UGX": {
+    "wholeValText": "shillings",
+    "decimalValText": "cent"
+  },
+  "USD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "UYU": {
+    "wholeValText": "pesos",
+    "decimalValText": "centesimos"
+  },
+  "UZS": {
+    "wholeValText": "som",
+    "decimalValText": "tiyin"
+  },
+  "VEB": {
+    "wholeValText": "bolívares",
+    "decimalValText": "centimo"
+  },
+  "VND": {
+    "wholeValText": "dong",
+    "decimalValText": ""
+  },
+  "VUV": {
+    "wholeValText": "vatu",
+    "decimalValText": "vatu"
+  },
+  "WST": {
+    "wholeValText": "tala",
+    "decimalValText": "sene"
+  },
+  "XAF": {
+    "wholeValText": "franc",
+    "decimalValText": "centime"
+  },
+  "XCD": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  },
+  "XDR": {
+    "wholeValText": "",
+    "decimalValText": ""
+  },
+  "XOF": {
+    "wholeValText": "franc",
+    "decimalValText": "centime"
+  },
+  "XPF": {
+    "wholeValText": "franc",
+    "decimalValText": "centime"
+  },
+  "YER": {
+    "wholeValText": "rials",
+    "decimalValText": "fils"
+  },
+  "ZAR": {
+    "wholeValText": "rand",
+    "decimalValText": "cent"
+  },
+  "ZMK": {
+    "wholeValText": "kwacha",
+    "decimalValText": "ngwee"
+  },
+  "ZWR": {
+    "wholeValText": "dollar",
+    "decimalValText": "cent"
+  }
+}
