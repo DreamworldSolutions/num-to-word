@@ -48,8 +48,8 @@
     "decimalValText": "cent"
   },
   "BDT": {
-    "wholeValText": "poisha",
-    "decimalValText": "poisha"
+    "wholeValText": "taka",
+    "decimalValText": "paisa"
   },
   "BGN": {
     "wholeValText": "leva",

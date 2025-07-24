@@ -4,7 +4,7 @@
 
   <groupId>com.dw</groupId>
   <artifactId>num-to-word</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <packaging>jar</packaging>
 
   <name>num-to-word</name>
@@ -90,12 +90,13 @@
 
   <distributionManagement>
     <repository>
-      <id>nexus-releases</id>
-      <url>http://nexus.dream-world.in/content/repositories/releases</url>
+      <id>nexus3-releases</id>
+      <url>http://nexus3.dreamworld.solutions:8081/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://nexus.dream-world.in/content/repositories/snapshots</url>
+      <id>nexus3-snapshots</id>
+      <url>http://nexus3.dreamworld.solutions:8081/repository/maven-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
+
 </project>
